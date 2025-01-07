@@ -103,7 +103,7 @@ ul {
     flex-wrap: wrap;
     height: 300px;
     width: 70%;
-    margin: auto;
+    margin: 1rem auto;
     align-items: center;
 }
 
@@ -113,4 +113,78 @@ h2 {
     font-weight: 900;
     color: #1f2937;
     margin: 2rem 0;
+}
+
+.section-three {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    width: 60%;
+}
+
+#quote-name {
+    font-weight: bold;
+    text-align: end;
+    width: 60%;
+    align-self: flex-start;
+}
+
+.section-four {
+    width: 80%;
+    height: 150px;
+    margin: 3rem auto;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 2rem;
+    justify-content: space-around;
+    align-items: center;
+    color: #e5e7eb;
+}
+
+.section-four button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+    padding: 5px 1rem;
+}
+
+.bold {
+    font-weight: bold;
+    width: 100%;
+}
+
+.light {
+   font-weight: 300;
+   font-size: 12px;
+}
+
+.call-to-action {
+    width: 60%;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    width: 100%;
+    height: 100px;
+    padding: 40px 0;
+}
+
+footer p {
+    text-align: center;
 }
